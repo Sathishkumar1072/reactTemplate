@@ -1,0 +1,37 @@
+/*
+This computer program, as defined in the Copyright, Designs and Patents Act 1998 and the Software Directive (2009/24/EC), 
+is the copyright of Logic Valley Ltd, a wholly owned subsidiary of Marston (Holdings) Ltd. All rights are reserved.
+*/
+
+/* 
+  In this file we write style for accessibility main page
+*/
+
+.ac-main-page {
+  line-height: 2rem;
+  letter-spacing: 0px !important;
+  font-weight: normal;
+  z-index: 1201;
+  position: fixed;
+  width: 35%;
+  bottom: 15%;
+  right: 1%;
+  min-height: 35vh;
+  height: 75vh;
+  border: solid 1px #f1f0f1;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  box-shadow: 0px 0px 2px #162b48;
+  font-family: Arial, Helvetica, sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-shadow: 1px 1px 3px #e2dbdbb3;
+  padding-bottom: 2%;
+  text-align: left;
+}
+
+.ac-main-page:hover {
+  box-shadow: 1px 1px 7px 0px #09216a;
+}

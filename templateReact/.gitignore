@@ -1,0 +1,5 @@
+node_modules
+dist
+coverage
+lib
+yarn-error.log

@@ -1,0 +1,565 @@
+/*
+This computer program, as defined in the Copyright, Designs and Patents Act 1998 and the Software Directive (2009/24/EC), 
+is the copyright of Logic Valley Ltd, a wholly owned subsidiary of Marston (Holdings) Ltd. All rights are reserved.
+*/
+
+.accessibilitymainpagediv {
+  user-select: none;
+  /* position: fixed; */
+  width: 98%;
+  height: auto;
+  transition-duration: 0.5s;
+  z-index: 99991;
+  /* opacity: 1; */
+  background-color: white;
+  color: #282e3ad1;
+  border-radius: 10px;
+  /* border: solid 1px #f1f0f1; */
+  font-family: RobotoDraft, Roboto, sans-serif, Arial;
+  /* min-width: 300px; */
+  /* box-shadow: 0px 0px 1px #aaa; */
+  /* max-height: 100vh; */
+  /* position: absolute; */
+  font-size: 16px;
+  /* color: var(--TitleBar-TextColour); */
+  /* font-weight: var(--label-FontWeight); */
+  /* background-color: white; */
+  /* margin-top: -6%; */
+  margin: 1% 1% 4% 1%;
+  border-left: 2px solid #0e92934f;
+  border-right: 2px solid #0e92934f;
+  border-bottom: 2px solid #0e92934f;
+  box-shadow: 0px 0px 6px 0px #0e929317;
+}
+
+.accessibilitymainpage::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border: 4px solid gray;
+  border-radius: 4px;
+  background-clip: padding-box;
+}
+
+.accessibilitymainpage::-webkit-scrollbar {
+  width: 10px;
+}
+
+.accessibilitymainpagediv1 {
+  margin-left: 3%;
+  margin-top: 5%;
+  background-color: white;
+}
+
+.popupcloseicon,
+.resetoption {
+  padding-top: 1.5%;
+}
+
+.popupcloseicon {
+  padding-left: 1%;
+}
+
+.popupcloseicon:hover {
+  cursor: pointer;
+}
+
+.popupcloseicon:hover {
+  -webkit-transform: scale(1.1);
+  font-weight: bolder;
+}
+
+.resetoption {
+  padding-right: 1%;
+}
+
+.accessibilitymainpageheaderdiv {
+  background-color: #535862;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-bottom: 3%;
+  margin-top: -1.25%;
+}
+.accessibilityheadertext {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  padding-bottom: 1%;
+  letter-spacing: 1px;
+  margin-bottom: 1%;
+}
+
+.accessibilityheadertext:hover {
+  -webkit-transform: scale(1.02);
+  transition-duration: 1s;
+}
+
+.mainheader {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 98%;
+  margin-left: 0.25%;
+  padding-bottom: 1%;
+}
+
+.pagecontent {
+  width: 98%;
+  margin-left: 2%;
+  color: black;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.controltext {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1%;
+  padding-top: 4%;
+}
+
+.onlytextcontrol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.controlcontainer {
+  width: 100%;
+  border-radius: 7px;
+  background-color: #d2e8f69e !important;
+  padding: 0% 1% 0% 0%;
+  float: right;
+  height: 15vh;
+}
+
+.tooltipfront {
+  z-index: 20000;
+}
+
+.icon-space {
+  margin-right: 2%;
+}
+
+.controltextarea {
+  margin-top: -1%;
+}
+
+.colorpallet {
+  width: 9%;
+  height: 31px;
+  border-radius: 50%;
+}
+
+.controlpage {
+  margin-top: 3%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  float: left;
+  width: 95%;
+  text-align: center;
+  margin-left: 1%;
+  align-content: center;
+}
+
+.accessibilitymainpagediv.orientadjust .MuiInputBase-input:focus {
+  border: none;
+}
+
+.accessibilitymainpagediv.orientadjust
+  .MuiInputBase-input.MuiFilledInput-input {
+  /* margin-top: -5%; */
+  font-size: 14px;
+  padding-bottom: 3.25%;
+  margin-right: 75%;
+}
+
+.accessibilitymainpagediv.orientadjust .MuiInputBase-root.MuiFilledInput-root {
+  /* padding-bottom: 1.5%; */
+  margin-left: 1.5%;
+}
+
+.accessibilitymainpagediv.orientadjust .MuiFilledInput-underline:before {
+  border-bottom: none !important;
+}
+.coloradjust .controlpage.colorvalues {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0%;
+  margin-left: 1.5%;
+}
+
+.colorpallet.fontcolor.active,
+.colorpallet.titlefontcolor.active,
+.colorpallet.bgcolor.active {
+  background-color: white !important;
+  box-shadow: 0px 0px 1px 2px blue;
+}
+
+.colorcancelaction {
+  height: 20%;
+  margin-top: 11.5%;
+  width: 50%;
+  margin-left: 25%;
+  text-align: center;
+}
+
+.colorcancelaction:hover {
+  -webkit-transform: scale(1.05);
+  font-weight: bold;
+  border: 1px solid #dfdada;
+  border-radius: 7px;
+  height: 20px;
+  box-shadow: 0px 0px 2px 0px darkgrey;
+  width: 50%;
+  margin-left: 25%;
+  line-height: 1.25;
+}
+
+.accessibilelistmain .description {
+  display: none;
+}
+
+.accessibilelistmain .description.active {
+  display: block;
+  font-size: smaller;
+  padding-top: 10%;
+}
+
+.accessibilitymainpagediv.orientadjust .controlpage {
+  margin-top: 4%;
+}
+.accessibilitymainpage
+  .accessibilitymainpagediv
+  .pagecontent
+  .controlpage
+  .MuiInputBase-root {
+  border-radius: 15px;
+  background-color: #e3e6e9;
+  border: none;
+}
+
+.colorpallet.fontcolor.active {
+  border: 4px solid var(--accssibility-selected-fontcolor-pallet);
+}
+
+.colorpallet.titlefontcolor.active {
+  border: 4px solid var(--accssibility-selected-titlefontcolor-pallet);
+}
+
+.colorpallet.bgcolor.active {
+  border: 4px solid var(--accssibility-selected-bgcolor-pallet);
+}
+
+.colorpallet:hover {
+  cursor: pointer;
+}
+
+.controlvalueup {
+  -webkit-transform: rotate(180deg);
+  margin-top: -1.75%;
+  width: 5%;
+  float: left;
+  margin-left: -5%;
+}
+
+.controlvaluedown {
+  /* padding-left: 7%; */
+  float: left;
+  width: 5%;
+  position: relative;
+  margin-top: 1%;
+  height: 32px;
+}
+
+.controlvalueup .MuiSvgIcon-root,
+.controlvaluedown .MuiSvgIcon-root {
+  font-size: 2rem !important;
+}
+
+.controlvaluepage {
+  background-color: white;
+  width: 88%;
+  height: 30px;
+  text-align: center;
+  line-height: 2;
+  border-radius: 13px;
+  float: left;
+  margin-left: -5%;
+  margin-top: 1.5%;
+}
+.btnbase {
+  border-radius: 20px !important;
+  background-color: white !important;
+  color: black !important;
+  box-shadow: 0px 0px 2px white;
+}
+
+.cursorimageclass {
+  /* width: 32px;
+  height: 32px; */
+  z-index: 2000;
+  /* color: white; */
+  position: absolute;
+  /* border: solid 2px orange; */
+}
+
+.btnbase:hover {
+  box-shadow: 0px 0px 3px white;
+  -webkit-transform: scale(1.05);
+}
+
+.accessibilityadjust {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1% 0%;
+  align-items: center;
+  flex-direction: row;
+  align-content: center;
+  margin-bottom: 5%;
+}
+
+.accessibilityadjust .button.MuiButton-root {
+  padding: 7px 12px !important;
+  /* letter-spacing: 1px; */
+}
+
+.accessibilitysearch {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-top: 1%;
+  padding-bottom: 3%;
+}
+
+.accessibilitysearch .MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded {
+  width: 90%;
+  height: 34px;
+  border-radius: 30px;
+  margin: 1%;
+  padding-left: 2%;
+  box-shadow: 0px 0px 2px #f2f3f8;
+}
+
+.accessibilitysearch .MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded:hover {
+  -webkit-transform: scale(1.01);
+}
+.accessibilitysearch .MuiIconButton-root {
+  float: right;
+  padding-top: 1.5%;
+}
+
+.accessibilitysearch .MuiPaper-root .MuiInputBase-root {
+  width: 88%;
+  margin-top: 0.75%;
+}
+
+.accessibilitymainpage {
+  overflow-y: scroll;
+  width: 96%;
+  height: 72%;
+  margin-left: 2%;
+  margin-top: -12%;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  /* display: flex; */
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  overflow-x: hidden;
+}
+
+.accessibilitymainpagediv .mainheader .accessibiltiyselectionswitchmain,
+.accessibilitymainpagediv1 .mainheader .accessibiltiyselectionswitchmain {
+  /* display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center; */
+  margin-left: 0.5%;
+  /* border-bottom: 2px solid #efe6e6;
+  border-bottom-style: double; */
+}
+.accessibiltiyselectionswitch {
+  float: left;
+  width: 15%;
+}
+
+.controlpage .autocompletectrl {
+  width: 100%;
+}
+
+.accessibilitymainpagediv
+  .mainheader
+  .accessibiltiyselectionswitchmain.selected {
+  border-radius: 10px;
+  background-color: #b1fdfd1c;
+  padding: 2% 3%;
+}
+
+.accessibiltiyselectionswitchtext {
+  font-size: 20px;
+  float: left;
+  width: 75%;
+}
+
+.accessibilitymainpagediv.orientadjust
+  .pagecontent
+  .controlpage
+  .MuiInputBase-root {
+  margin-top: -10%;
+  margin-left: 2%;
+}
+
+.accessibilityfooter {
+  width: 100%;
+  background-color: #535862;
+  height: 7%;
+  margin-bottom: -7.25%;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  text-align: center;
+  line-height: 2;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 1px;
+  margin-top: -15px;
+}
+
+.accessibiltiyselectionswitchtext:hover {
+  -webkit-transform: scale(1.02);
+}
+
+.accessibiltiyselectionswitchicon {
+  float: right;
+  width: 10%;
+  line-height: 2;
+  margin-top: -2%;
+  padding-top: 5%;
+}
+
+.accessibilelistmain {
+  width: 100%;
+  margin-left: 4%;
+  /* border-bottom: 2px solid #efe6e6;
+  border-bottom-style: double; */
+}
+
+.subfontpage {
+  /* margin-top: 1%; */
+  font-size: small;
+}
+
+hr.hrlinestyle {
+  border: 0.5px solid rgb(223 221 221 / 34%);
+  width: 95%;
+}
+
+.onlytextcontrol:hover {
+  /* background-color: #0d2737 !important;
+  color: white; */
+  -webkit-transform: scale(1.03);
+  box-shadow: 0px 0px 3px 2px #031621fa;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.onlytextcontrol.active {
+  background-color: #045181 !important;
+  color: white;
+}
+
+.accessibilitymainpage
+  .accessibilitymainpagediv
+  .controlcontainer
+  .controlpage
+  .controlvalueup
+  .MuiSvgIcon-root:hover,
+.accessibilitymainpage
+  .accessibilitymainpagediv
+  .controlcontainer
+  .controlpage
+  .controlvaluedown
+  .MuiSvgIcon-root:hover {
+  -webkit-transform: scale(1.1);
+  box-shadow: 0px 0px 3px 2px black;
+  border-radius: 50%;
+}
+
+.pageheader {
+  margin: 2% 0% 5% 0%;
+  font-size: larger;
+  padding: 1% 0% 0% 1%;
+  box-shadow: 0px 2px 3px #aaa;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  background-color: #0e92931a;
+}
+/* .accessibilitymainpagediv .mainheader .switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.accessibilitymainpagediv .mainheader .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.accessibilitymainpagediv .mainheader .slider.round {
+  border-radius: 34px;
+}
+
+.accessibilitymainpagediv .mainheader .slider.round:before {
+  border-radius: 50%;
+}
+
+.accessibilitymainpagediv .mainheader input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.accessibilitymainpagediv .mainheader input:checked + .slider {
+  background-color: #2196f3;
+}
+
+.accessibilitymainpagediv .mainheader input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+.accessibilitymainpagediv .mainheader .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.accessibilitymainpagediv .mainheader .slider:before {
+  position: absolute;
+  content: '';
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+} */

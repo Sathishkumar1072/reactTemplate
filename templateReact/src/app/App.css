@@ -1,0 +1,41 @@
+/*
+This computer program, as defined in the Copyright, Designs and Patents Act 1998 and the Software Directive (2009/24/EC), 
+is the copyright of Logic Valley Ltd, a wholly owned subsidiary of Marston (Holdings) Ltd. All rights are reserved.
+*/
+
+/*
+  In this CSS file we write common styles for application and App.js file's style also
+  Ex: We write responsive UI also in this css file.
+*/
+
+.App {
+  text-align: left;
+}
+
+.welcometext,
+.loadingblock {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 30px;
+  padding-top: 15%;
+}
+
+#root {
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Segoe UI Regular';
+}
+
+.Titlebar {
+  height: 50px;
+  width: 100%;
+  background-color: #06053f;
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  color: white;
+  font-size: 20px;
+  margin: 0px 0px 0px 30px !important;
+}
